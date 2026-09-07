@@ -1,42 +1,54 @@
-# PrivacyScrubber Ecosystem 🛡️
+# PrivacyScrubber Ecosystem
 
 Building **[PrivacyScrubber](https://privacyscrubber.com)** — the zero-trust, 100% client-side PII sanitization engine for AI workflows.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--0642--5985-green.svg)](https://orcid.org/0009-0002-0642-5985)
 [![DOI: Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22058770-blue.svg)](https://doi.org/10.5281/zenodo.22058770)
 [![DOI: OSF](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2F5BYJF-brightgreen.svg)](https://doi.org/10.17605/OSF.IO/5BYJF)
+[![MCP: TensorBlock](https://img.shields.io/badge/MCP-TensorBlock%20Listed-blue)](https://github.com/TensorBlock/awesome-mcp-servers)
 
 ---
 
-### 🛠️ Core Projects
+### Core Projects & Ecosystem
 
-- 🌐 **Web App**: [PrivacyScrubber.com](https://privacyscrubber.com) — 100% browser-native data redaction (zero server logs, Airplane Mode verified).
-- 🧩 **Chrome Extension**: [PrivacyScrubber on Chrome Web Store](https://chromewebstore.google.com/detail/privacyscrubber-%E2%80%94-zero-tr/pimoejgefeilajmmbpghifdmhdlkgjol) — In-page automatic prompt sanitization for ChatGPT, Claude & Gemini.
-- 🤖 **MCP Server**: [`@privacyscrubber/mcp-server`](https://github.com/moxno/privacyscrubber-mcp) — Model Context Protocol server for AI IDEs (Cursor, Antigravity, Windsurf).
-- 📦 **NPM SDK**: [`privacyscrubber`](https://www.npmjs.com/package/privacyscrubber) — Zero-dependency ESM/CJS de-tokenization module (<1ms latency).
+- **Web App**: [PrivacyScrubber.com](https://privacyscrubber.com) — 100% browser-native data redaction (zero server logs, RAM-only processing, Airplane Mode verified).
+- **Chrome Extension**: [PrivacyScrubber on Chrome Web Store](https://chromewebstore.google.com/detail/privacyscrubber-%E2%80%94-zero-tr/pimoejgefeilajmmbpghifdmhdlkgjol) — In-page automatic prompt sanitization for ChatGPT, Claude, and Gemini with zero network egress.
+- **MCP Server**: [`@privacyscrubber/mcp-server`](https://github.com/moxno/privacyscrubber-mcp) — Model Context Protocol server for AI IDEs (Cursor, Antigravity, Claude Desktop, Windsurf).
+- **Headless Node.js & WASM SDK**: [`@privacyscrubber/sdk`](https://www.npmjs.com/package/@privacyscrubber/sdk) — Zero-dependency ESM/CJS de-tokenization engine (<1ms in-memory latency).
 
 ---
 
-### 🔬 Academic Research & Treatises
+### Key Capabilities
 
-- **Zero-Trust Data Sanitization (ZTDS)**: [Zenodo Paper (DOI: 10.5281/zenodo.22058770)](https://doi.org/10.5281/zenodo.22058770)
+- **Zero-Trust Data Sanitization (ZTDS)**: Prompts and files are sanitized entirely in volatile local RAM. Zero telemetry, zero server-side prompt storage.
+- **25 Specialized Industry Profiles**: Out-of-the-box detection for Healthcare/HIPAA, Finance/SOX, Legal/Attorney-Client Privilege, DevOps Secrets, HR/FERPA, and Enterprise workflows.
+- **Bi-Directional Reverse Scrub**: Restore masked tokens in downstream AI responses locally in memory.
+
+---
+
+### Academic Treatises & Empirical Research
+
+- **Zero-Trust Data Sanitization (ZTDS)**: [Zenodo / CERN (DOI: 10.5281/zenodo.22058770)](https://doi.org/10.5281/zenodo.22058770)
 - **Empirical Latency & RAM Profiling Study**: [Center for Open Science (DOI: 10.17605/OSF.IO/5BYJF)](https://doi.org/10.17605/OSF.IO/5BYJF)
 - **EU AI Act & US Privacy Statutory Compliance**: [Elsevier / SSRN #7335581](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7335581)
 - **Preserving Attorney-Client Privilege in GenAI**: [Law Archive / OSF #4wc86](https://osf.io/preprints/lawarchive/4wc86/)
 
 ---
 
-### ⚡ Tech Stack & Security Model
+### Registries & Official Listings
 
-- **Security Architecture**: Zero-Trust Data Sanitization (ZTDS), Volatile RAM Session Isolation, Local Cryptography (`Argon2id` + `AES-GCM` / `XChaCha20-Poly1305`).
-- **Core Stack**: Vanilla JavaScript (ES Modules), Web Workers, WebAssembly (PDF.js / Tesseract.js OCR), Manifest V3.
-- **AI Protocols**: Model Context Protocol (stdio JSON-RPC 2.0).
+- **Glama.ai MCP Registry**: [moxno/privacyscrubber-mcp](https://glama.ai/mcp/servers/moxno/privacyscrubber-mcp)
+- **Smithery.ai Registry**: [privacyscrubber/privacyscrubber-mcp](https://smithery.ai/servers/privacyscrubber/privacyscrubber-mcp)
+- **Awesome MCP Servers**: Listed in [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#security) & [TensorBlock](https://github.com/TensorBlock/awesome-mcp-servers)
+- **Cursor Directory**: [privacyscrubber-mcp](https://cursor.directory/plugins/privacyscrubber-mcp)
+- **G2 Product Profile**: [PrivacyScrubber Reviews](https://www.g2.com/products/privacyscrubber/reviews)
+- **There's An AI For That (TAAFT)**: [PrivacyScrubber](https://theresanaiforthat.com/ai/privacy-scrubber/)
 
 ---
 
-### 🌐 Official Links & Verification
+### Contact & Profiles
 
-- 🌐 **Website**: [privacyscrubber.com](https://privacyscrubber.com)
-- 🐙 **MCP Server**: [moxno/privacyscrubber-mcp](https://github.com/moxno/privacyscrubber-mcp)
-- 💼 **LinkedIn**: [Ilya Sibiryakov](https://www.linkedin.com/in/ilya-sibiryakov/)
-- 🪪 **ORCID**: [0009-0002-0642-5985](https://orcid.org/0009-0002-0642-5985)
+- Website: [privacyscrubber.com](https://privacyscrubber.com)
+- Founder: [BrandMeWeb](https://brandmeweb.com)
+- LinkedIn: [Ilya Sibiryakov](https://www.linkedin.com/in/ilya-sibiryakov/)
+- ORCID: [0009-0002-0642-5985](https://orcid.org/0009-0002-0642-5985)
