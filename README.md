@@ -13,15 +13,16 @@ Building **[PrivacyScrubber](https://privacyscrubber.com)** — the zero-trust, 
 
 - **Web App**: [PrivacyScrubber.com](https://privacyscrubber.com) — 100% browser-native data redaction (zero server logs, RAM-only processing, Airplane Mode verified).
 - **Chrome Extension**: [PrivacyScrubber on Chrome Web Store](https://chromewebstore.google.com/detail/privacyscrubber-%E2%80%94-zero-tr/pimoejgefeilajmmbpghifdmhdlkgjol) — In-page automatic prompt sanitization for ChatGPT, Claude, and Gemini with zero network egress.
-- **MCP Server**: [`@privacyscrubber/mcp-server`](https://github.com/moxno/privacyscrubber-mcp) — Model Context Protocol server for AI IDEs (Cursor, Antigravity, Claude Desktop, Windsurf).
-- **Headless Node.js & WASM SDK**: [`@privacyscrubber/sdk`](https://www.npmjs.com/package/@privacyscrubber/sdk) — Zero-dependency ESM/CJS de-tokenization engine (<1ms in-memory latency).
+- **MCP Server**: [`@privacyscrubber/mcp-server`](https://privacyscrubber.com/pii-mcp/) ([GitHub](https://github.com/moxno/privacyscrubber-mcp)) — Model Context Protocol server for AI IDEs (Cursor, Antigravity, Claude Desktop, Windsurf).
+- **Headless Node.js & WASM SDK**: [`@privacyscrubber/sdk`](https://privacyscrubber.com/sdk/) ([npm](https://www.npmjs.com/package/@privacyscrubber/sdk)) — Zero-dependency ESM/CJS de-tokenization engine (<1ms in-memory latency).
+- **ZTDS Open Standard**: [ZTDS.ai](https://ztds.ai) — Zero-Trust Data Sanitization protocol (RFC v1.0, Apache-2.0).
 
 ---
 
 ### Key Capabilities
 
 - **Zero-Trust Data Sanitization (ZTDS)**: Prompts and files are sanitized entirely in volatile local RAM. Zero telemetry, zero server-side prompt storage.
-- **25 Specialized Industry Profiles**: Out-of-the-box detection for Healthcare/HIPAA, Finance/SOX, Legal/Attorney-Client Privilege, DevOps Secrets, HR/FERPA, and Enterprise workflows.
+- **30 Specialized Industry Profiles**: Out-of-the-box detection for Healthcare/HIPAA, Finance/SOX, Legal/Attorney-Client Privilege, DevOps Secrets, HR/FERPA, and Enterprise workflows.
 - **Bi-Directional Reverse Scrub**: Restore masked tokens in downstream AI responses locally in memory.
 
 ---
