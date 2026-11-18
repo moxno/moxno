@@ -13,9 +13,9 @@
 
 ### Institutional & Architectural Positioning
 
-- **[ZTDS.ai](https://ztds.ai)** (*Chief Architect & Lead Author*): Vendor-neutral open standard and specification authority for **Zero-Trust Data Sanitization (ZTDS™ RFC v1.0)** and IETF Internet-Draft [`draft-sibiryakov-ztds-protocol`](https://datatracker.ietf.org/doc/draft-sibiryakov-ztds-protocol/).
-- **[PrivacyScrubber](https://privacyscrubber.com)** (*Lead Systems Architect*): Pioneer certified commercial implementation of the ZTDS standard — 100% client-side, zero-egress PII & secrets sanitization in volatile RAM across Web, Chrome Extension, MCP Server, and Headless Node.js/WASM SDK.
-- **[BrandMeWeb](https://brandmeweb.com)** (*Founder & Chief Architect*): Digital systems engineering agency and commercial R&D studio operating PrivacyScrubber and financing ZTDS protocol research.
+- **[ZTDS.ai](https://ztds.ai)** (*Chief Architect & Lead Author* · GitHub Org: [@ztds-ai](https://github.com/ztds-ai)): Vendor-neutral open standard and specification authority for **Zero-Trust Data Sanitization (ZTDS™ RFC v1.0)** and IETF Internet-Draft [`draft-sibiryakov-ztds-protocol`](https://datatracker.ietf.org/doc/draft-sibiryakov-ztds-protocol/).
+- **[PrivacyScrubber](https://privacyscrubber.com)** (*Lead Systems Architect* · GitHub Org: [@privacyscrubber](https://github.com/privacyscrubber)): Pioneer certified commercial implementation of the ZTDS standard — 100% client-side, Zero Network & Cloud Leakage PII & secrets sanitization in volatile RAM across Web, Chrome Extension, MCP Server, and Headless Node.js/WASM SDK.
+- **[BrandMeWeb](https://brandmeweb.com)** (*Founder & Chief Architect* · GitHub Org: [@BrandMeWeb](https://github.com/BrandMeWeb)): Digital systems engineering agency and commercial R&D studio operating PrivacyScrubber and financing ZTDS protocol research.
 
 ---
 
