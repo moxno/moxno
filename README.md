@@ -24,6 +24,7 @@
 | Repository | Role | Package / URL |
 | :--- | :--- | :--- |
 | [**`moxno/privacyscrubber-mcp`**](https://github.com/moxno/privacyscrubber-mcp) | Production MCP Server & Agentic Guard (30 Industry Profiles, HIPAA, PCI-DSS 4.0, SOC 2, DevOps Secrets) | [`@privacyscrubber/mcp-server`](https://www.npmjs.com/package/@privacyscrubber/mcp-server) · [`privacyscrubber-mcp` (PyPI)](https://pypi.org/project/privacyscrubber-mcp/) |
+| [**`moxno/privacyscrubber-sdk`**](https://github.com/moxno/privacyscrubber-sdk) | Headless Node.js, TypeScript & WASM SDK (`<1ms` in-RAM, Vercel AI SDK, LangChain, RAG & SARIF) | [`@privacyscrubber/sdk`](https://www.npmjs.com/package/@privacyscrubber/sdk) · [Docs](https://privacyscrubber.com/sdk/) |
 | [**`moxno/ztds.ai`**](https://github.com/moxno/ztds.ai) | ZTDS™ Open Specification (RFC v1.0), Conformance Registry, Cryptographic Certificates & CLI Auditor | [ztds.ai](https://ztds.ai) · [`ztds-audit` (npm)](https://www.npmjs.com/package/ztds-audit) · [`ztds` (PyPI)](https://pypi.org/project/ztds/) |
 | [**`moxno/ztds-mcp`**](https://github.com/moxno/ztds-mcp) | Open-Source Reference ZTDS RFC v1.0 MCP Server (Apache-2.0) for Cursor, Claude Code & Windsurf | [`ztds-mcp` (npm)](https://www.npmjs.com/package/ztds-mcp) |
 | [**`moxno/ztds-python`**](https://github.com/moxno/ztds-python) | Canonical Python Reference Implementation of ZTDS RFC v1.0 (zero dependencies, MIT) | [`ztds` (PyPI)](https://pypi.org/project/ztds/) |
