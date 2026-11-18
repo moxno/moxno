@@ -24,26 +24,27 @@
 | Repository | Role | Package / URL |
 | :--- | :--- | :--- |
 | [**`moxno/privacyscrubber-mcp`**](https://github.com/moxno/privacyscrubber-mcp) | Production MCP Server & Agentic Guard (30 Industry Profiles, HIPAA, PCI-DSS 4.0, SOC 2, DevOps Secrets) | [`@privacyscrubber/mcp-server`](https://www.npmjs.com/package/@privacyscrubber/mcp-server) · [`privacyscrubber-mcp` (PyPI)](https://pypi.org/project/privacyscrubber-mcp/) |
-| [**`moxno/ztds.ai`**](https://github.com/moxno/ztds.ai) | ZTDS™ Open Specification (RFC v1.0), Conformance Registry, Cryptographic Certificates & CLI Auditor | [ztds.ai](https://ztds.ai) · [`ztds` (npm)](https://www.npmjs.com/package/ztds) |
+| [**`moxno/ztds.ai`**](https://github.com/moxno/ztds.ai) | ZTDS™ Open Specification (RFC v1.0), Conformance Registry, Cryptographic Certificates & CLI Auditor | [ztds.ai](https://ztds.ai) · [`ztds-audit` (npm)](https://www.npmjs.com/package/ztds-audit) · [`ztds` (PyPI)](https://pypi.org/project/ztds/) |
 | [**`moxno/ztds-mcp`**](https://github.com/moxno/ztds-mcp) | Open-Source Reference ZTDS RFC v1.0 MCP Server (Apache-2.0) for Cursor, Claude Code & Windsurf | [`ztds-mcp` (npm)](https://www.npmjs.com/package/ztds-mcp) |
+| [**`moxno/ztds-python`**](https://github.com/moxno/ztds-python) | Canonical Python Reference Implementation of ZTDS RFC v1.0 (zero dependencies, MIT) | [`ztds` (PyPI)](https://pypi.org/project/ztds/) |
 
 ---
 
 ### Developer Quickstart (Zero Network & Cloud Leakage)
 
 ```bash
-# 1. Production MCP Server & Agentic Guard (Cursor, Claude Desktop, Claude Code, Windsurf)
-npx -y @privacyscrubber/mcp-server
+# 1. Production MCP Server & Agentic Guard (Cursor, Claude Desktop, Claude Code, Windsurf, VS Code)
+npx -y @privacyscrubber/mcp-server install --all
 
 # 2. Headless Node.js / TypeScript / RAG Pipeline SDK (<0.4ms in-memory latency, 0 dependencies)
 npm install @privacyscrubber/sdk
 
-# 3. Git Pre-Commit Leak Shield (blocks API keys & PII before commit)
-npx ps-git-guard install
+# 3. Open-Standard ZTDS RFC v1.0 Codebase Invariant Auditor & Reference MCP
+npx -y ztds-audit .
+npx -y ztds-mcp
 
-# 4. Open-Standard ZTDS RFC v1.0 Reference MCP & Codebase Invariant Auditor
-npx ztds-mcp init
-npx ztds-mcp audit ./src
+# 4. Python ZTDS RFC v1.0 Reference Engine & MCP Server
+pip install ztds privacyscrubber-mcp
 ```
 
 ---
